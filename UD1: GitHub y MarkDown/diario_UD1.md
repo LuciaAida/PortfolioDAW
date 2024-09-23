@@ -17,7 +17,7 @@ Si la imagen no se carga se mostraría el texto alternativo y el URL es el enlac
   El texto del enlace, es lo que verá el usuario y la URL la dirección a la que dirigirá el enlace.
 
 * Para crear enlaces que dirijan a secciones dentro del mismo archivo se utilizará lo siguiente:
-  ## Sección 1
+  ##Sección 1
   [Ir a la sección 1] (#sección-1)
 
   Convertimos todo a minúsculas y reemplazamos los espacios con guiones.
