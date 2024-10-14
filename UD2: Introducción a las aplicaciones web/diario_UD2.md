@@ -26,7 +26,7 @@ En general, encontré que el servidor Apache era bastante fácil de entender. Si
 
 # ¿Qué es lo que más me ha gustado y qué es lo que menos?
 1. Lo que más me ha gustado aprender:
-* Me ha gustado lo fácil que es trabajar con Apache. Su flexibilidad y la posibilidad de personalizarlo con módulos me parecen geniales. Además, es gratuito y de código abierto lo que permite a muchos desarrolladores usarlo y mejorar la herramienta.
+* Me ha gustado lo fácil que es trabajar con Apache. Es gratuito y de código abierto lo que permite a muchos desarrolladores usarlo y mejorar la herramienta.
 * El modelo cliente-servidor ya que organiza la comunicación entre usuarios y servidores de una gran manera. Hace que la web sea más eficiente y más fácil de entender, lo cual es muy útil.
      
 2. Lo que menos me ha gustado aprender:
