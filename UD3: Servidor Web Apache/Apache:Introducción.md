@@ -24,5 +24,10 @@ _sudo apt update_ -> hay que actualizar los paquetes locales.
 _sudo apt install apache2_ -> instalará Apache y todas las dependencias necesarias.
 
 ## Ajustar el firewall
-Habrá que modificar los ajustes de firewall para permitir el acceso externo a los puertos web predenterminados.
-![Firewall](imagenes/firewall.png)
+Habrá que modificar los ajustes de firewall para permitir el acceso externo a los puertos web predeterminados.
+UFW tendría que restringir el acceso al servidor (si has seguido los pasos correctamente), Apache se deberá registrar con UFW y ofrecerá perfiles de aplicación para habilitar o deshabilitar su acceso. Debemos ejecutar lo siguiente:
+![Firewall](Imagenes/firewall.png)
+
+Debemos habilitar Apache:
+
+![Puerto](Imagenes/puerto80.png)
