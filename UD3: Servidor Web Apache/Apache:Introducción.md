@@ -69,3 +69,8 @@ _cd /etc/apache2/sites-available/_
 Usar el archivo VirtualHost predeterminado como base: _sudo cp 000-default.conf gci.conf_
 
 Luego tenemos que editar el archivo de configuracion: _sudo nano gci.conf_
+
+![VirtualHost](Imagenes/configurarVirtualHost.png)
+
+En ServerAdmin, debemos incluir el correo electrónico en caso de que hayan errores en el servidor Web. 
+
