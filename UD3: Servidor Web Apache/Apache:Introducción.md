@@ -25,4 +25,4 @@ _sudo apt install apache2_ -> instalará Apache y todas las dependencias necesar
 
 ## Ajustar el firewall
 Habrá que modificar los ajustes de firewall para permitir el acceso externo a los puertos web predenterminados.
-![Logo de Apache](firewall.png)
+![Firewall](imagenes/firewall.png)
