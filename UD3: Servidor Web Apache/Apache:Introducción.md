@@ -50,3 +50,22 @@ La mejor forma de comprobar si se inició correctamente es solicitar una página
 ![IP](Imagenes/hostname.png)
 
 Habrá que introducirla en la barra de direcciones del navegador. Saldrá seguramente la página predeterminada de Apache (si no es así, deberás meterte en una ventana de incognito)
+
+## Administrar el proceso de Apache
+
+Ahora que el servidor web está en funcionamiento, es importante conocer algunos comandos básicos de administración utilizando systemctl. Estos comandos permiten detener, iniciar, reiniciar y recargar Apache sin necesidad de cerrar las conexiones existentes. También puedes habilitar o deshabilitar el inicio automático de Apache al arrancar el servidor.
+
+Con estos comandos, puedes gestionar fácilmente el estado del servidor web Apache y asegurarte de que funcione según tus necesidades.
+
+![IP](Imagenes/administrarProcesoApache.png)
+
+## Configuración del archivo de configuración virtualHost
+
+Puedes modificar cómo Apache maneja las solicitudes entrantes y alojar múltiples sitios en el mismo servidor editando su archivo de Hosts Virtual.
+
+Para configurar el archivo VirtualHost, primero navega al directorio de archivos de configuración:
+_cd /etc/apache2/sites-available/_
+
+Usar el archivo VirtualHost predeterminado como base: _sudo cp 000-default.conf gci.conf_
+
+Luego tenemos que editar el archivo de configuracion: _sudo nano gci.conf_
