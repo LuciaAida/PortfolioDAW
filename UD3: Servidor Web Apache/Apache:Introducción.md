@@ -31,3 +31,6 @@ UFW tendría que restringir el acceso al servidor (si has seguido los pasos corr
 Debemos habilitar Apache:
 
 ![Puerto](Imagenes/puerto80.png)
+
+Debemos verificar el cambio:
+![Cambio](Imagenes/verificar cambio.png)
