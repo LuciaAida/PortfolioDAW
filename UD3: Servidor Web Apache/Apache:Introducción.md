@@ -33,4 +33,12 @@ Debemos habilitar Apache:
 ![Puerto](Imagenes/puerto80.png)
 
 Debemos verificar el cambio:
-![Cambio](Imagenes/verificar cambio.png)
+
+![Cambio](Imagenes/verificarCambio.png)
+
+Si el estado aparece como inactivo, deberás activarlo. Una vez que lo actives, el resultado mostrará una lista del tráfico HTTP permitido.Esto indica que el perfil de Apache se activó correctamente para permitir el acceso al servidor web.
+
+## Comprobar su servidor web
+
+Al final del proceso de instalación, Ubuntu inicia Apache. El servidor web ya debería estar activo.
+
