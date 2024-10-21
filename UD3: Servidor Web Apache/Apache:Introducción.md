@@ -73,4 +73,7 @@ Luego tenemos que editar el archivo de configuracion: _sudo nano gci.conf_
 ![VirtualHost](Imagenes/configurarVirtualHost.png)
 
 En ServerAdmin, debemos incluir el correo electrónico en caso de que hayan errores en el servidor Web. 
+DocumentRoot para apuntar al directorio donde están alojados los archivos del sitio.
+Añade la directiva ServerName para que Apache dirija correctamente las solicitudes al subdominio.
 
+Después de configurar el sitio web, necesitamos activar el archivo de configuración de hosts virtuales para habilitarlo. 
