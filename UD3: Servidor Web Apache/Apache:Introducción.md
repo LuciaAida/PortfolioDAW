@@ -41,4 +41,12 @@ Si el estado aparece como inactivo, deberás activarlo. Una vez que lo actives, 
 ## Comprobar su servidor web
 
 Al final del proceso de instalación, Ubuntu inicia Apache. El servidor web ya debería estar activo.
+Debemos iniciar el servidor web y realizar una verificación con _systemd_ para saber si está en ejecución el servicio, escribiendo:
 
+![Cambio](Imagenes/ipServidor.png)
+
+La mejor forma de comprobar si se inició correctamente es solicitar una página de Apache. Se puede acceder mediante la dirección IP (si no la sabes, la puedes obtener)
+
+![IP](Imagenes/hostname.png)
+
+Habrá que introducirla en la barra de direcciones del navegador. Saldrá seguramente la página predeterminada de Apache (si no es así, deberás meterte en una ventana de incognito)
