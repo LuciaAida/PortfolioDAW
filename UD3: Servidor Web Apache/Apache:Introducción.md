@@ -18,3 +18,11 @@ Apache es fundamental para el funcionamiento de muchos sitios web y aplicaciones
 La instalación de Apache en Ubuntu se llevará a cabo en el ordenador del aula, este procedimiento forma parte de nuestro trabajo de clase.
 
 Antes de comenzar, es esencial contar con un usuario normal que tenga privilegios de sudo.
+
+## Instalar Apache
+_sudo apt update_ -> hay que actualizar los paquetes locales.
+_sudo apt install apache2_ -> instalará Apache y todas las dependencias necesarias.
+
+## Ajustar el firewall
+Habrá que modificar los ajustes de firewall para permitir el acceso externo a los puertos web predenterminados.
+![Logo de Apache](firewall.png)
