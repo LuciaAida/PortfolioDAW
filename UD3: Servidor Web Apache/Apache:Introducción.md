@@ -79,3 +79,10 @@ Añade la directiva ServerName para que Apache dirija correctamente las solicitu
 Después de configurar el sitio web, necesitamos activar el archivo de configuración de hosts virtuales para habilitarlo. 
 
 ![VirtualHost](Imagenes/activarVirtualHost.png)
+
+Ahora, navega al archivo /etc/hosts y añade la siguiente línea para asignar la IP al subdominio:
+
+![IPs](Imagenes/mapearIPs.png)
+
+Esto permitirá que las solicitudes a gci.nombre.com se dirijan a tu servidor local. En mi caso, he decidido poner luciaperez en vez de example, pero cada uno, elige que decide.
+
