@@ -77,3 +77,5 @@ DocumentRoot para apuntar al directorio donde están alojados los archivos del s
 Añade la directiva ServerName para que Apache dirija correctamente las solicitudes al subdominio.
 
 Después de configurar el sitio web, necesitamos activar el archivo de configuración de hosts virtuales para habilitarlo. 
+
+![VirtualHost](Imagenes/activarVirtualHost.png)
