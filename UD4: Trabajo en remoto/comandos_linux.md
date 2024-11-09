@@ -46,3 +46,7 @@ _chmod 755 archivo.txt_ asigna permisos de lectura, escritura y ejecución al pr
 ## chown
 Cambia el propietario y el grupo de un archivo o directorio.
 _chown usuario:grupo archivo.txt_ cambia el propietario y grupo del archivo.
+
+[60 Comandos esenciales y populares de Linux](https://www.hostinger.es/tutoriales/linux-comandos?authuser=0)
+
+En dicho enlace se encontrarán más comandos importantes de Linux.
