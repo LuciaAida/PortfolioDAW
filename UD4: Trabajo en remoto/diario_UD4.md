@@ -1,1 +1,14 @@
+# ¿Qué he aprendido?
+
+
+# ¿Qué me ha costado entender?
+
+
+
+# ¿Qué es lo que más me ha gustado y qué es lo que menos?
+
+
+     
+# ¿Qué más me gustaría saber relacionado con la Unidad?
+
 
