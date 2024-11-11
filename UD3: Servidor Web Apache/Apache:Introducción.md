@@ -21,6 +21,7 @@ Antes de comenzar, es esencial contar con un usuario normal que tenga privilegio
 
 ## Instalar Apache
 _sudo apt update_ -> hay que actualizar los paquetes locales.
+
 _sudo apt install apache2_ -> instalará Apache y todas las dependencias necesarias.
 
 ## Ajustar el firewall
