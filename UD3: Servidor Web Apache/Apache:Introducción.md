@@ -94,8 +94,6 @@ Tras completar la instalación y configuración de Apache en Ubuntu, el servidor
 
 Los resultados fueron satisfactorios, ya que el servidor respondió como se esperaba, mostrando la página de Apache al acceder desde el navegador y permitiendo la creación de un entorno de pruebas funcional para alojar sitios web. Además, no se detectaron errores durante la verificación de las configuraciones, lo cual demostró que los pasos seguidos eran correctos y efectivos.
 
-En general, el resultado ha sido el esperado, ya que el servidor ha cumplido con los requisitos planeados y responde de manera adecuada a las solicitudes de los usuarios.
-
 # Conclusión
 
 Con esta instalación y configuración de Apache en Ubuntu he podido entender mejor cómo funciona un servidor HTTP. Durante el proceso he aprendido a gestionar configuraciones importantes, como los ajustes del firewall, el control del servicio con systemctl, y la creación de archivos VirtualHost para alojar varios sitios en un solo servidor.
