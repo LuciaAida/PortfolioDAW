@@ -30,3 +30,53 @@ _sudo apt-get update_
 _sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin_
 
 ## Verificar la Instalación
+
+_sudo docker run hello-world_
+
+# ¿Cómo instalar WordPress con Docker?
+## Crear un archivo docker-compose.yml con el puerto 8081:80 en Wordpress.
+## Asegurar que WordPress se conecte con la BBDD
+
+_docker exec -it wordpress_db mysql -uwordpress -p -h127.0.0.1_
+
+## Debemos revisar los permisos en /var/www/html
+
+_docker exec -it wordpress_app bash_
+
+_chown -R www-data:www-data /var/www/html_
+
+_chmod -R 755 /var/www/html_
+
+_exit_
+
+Y posteriormente, reiniciar los contenedores.
+
+_docker-compose restart_
+
+## Configurar ServerName en Apache para evitar advertencias y garantizar una conexión estable
+
+_docker exec -it wordpress_app bash_
+
+_echo "ServerName localhost" >> /etc/apache2/apache2.conf_
+
+_exit_
+
+Debemos reiniciar el servicio de Apache.
+
+## Añadir el puerto que utiliza la BBDD en docker-compose.yml
+
+## Iniciar los Contenedores
+
+Hay que ejecutar el siguiente comando para comprobar el estado de los contenedores:
+
+_sudo docker ps_
+
+Luego debemos detener los contenedores y posteriormente, descargar las imágenes necesarias y volverlos a levantar:
+
+_docker-compose down_
+
+_docker-compose up -d_
+
+## Hay que conectarse desde el contenedor de WordPress y probar si se puede acceder a MySQL.
+
+Habrá que ingresar la contraseña que hemos escogido en **docker-compose.yml** y luego podremos acceder desde el navegador.
